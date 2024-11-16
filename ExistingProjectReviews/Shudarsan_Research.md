@@ -5,6 +5,28 @@
 ---
 *Source*: ChatGPT
 
+### Diagram
+
+```mermaid
+flowchart TD
+    Start[Start Game] --> Init[Initialize Game]
+    Init -->|Set Grid, Snake, Food| Input[Handle Input]
+    Input -->|Update Direction| Update[Update Game State]
+    
+    Update -->|Move Snake| CheckColl[Check Collision]
+    CheckColl -->|Food Collision| Grow[Increase Snake Length]
+    CheckColl -->|Boundary/Self Collision| GameOver[Game Over]
+    
+    Grow --> GenFood[Generate New Food]
+    GenFood --> Render[Render Game]
+    CheckColl -->|No Collision| Render[Render Game]
+    Render --> Loop[Continue Game?]
+    Loop -->|Yes| Input
+    Loop -->|No| GameOver
+    
+    GameOver --> End[Display Score and Exit]
+```
+
 ### 1. **Define the Game Structure**
    - Represent the game components (snake, food, and grid).
    - Use structs for better organization:
