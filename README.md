@@ -159,7 +159,7 @@ if (conn) {
 
 ## **Contributors**
  - [Shudarsan Regmi](https://github.com/ShudarsanRegmi) 
- - [Swetha Shivakumar]()
+ - [Shwetha Sivakumar](https://github.com/shwethasivakumar06)
  - [Sima Pandit]()
 ---
 
