@@ -158,12 +158,7 @@ if (conn) {
 ---
 
 ## **Contributors**
+ - [Richa Kumari Jaishwal] (https://github.com/richajaishwal0/)
  - [Shudarsan Regmi](https://github.com/ShudarsanRegmi) 
- - [Swetha Shivakumar]()
+ - [Swetha Sivakumar]()
  - [Sima Pandit]()
----
-
-## **Contact**
-If you have any questions or feedback, feel free to contact me:
-- **GitHub**: [Your GitHub Profile](https://github.com/richajaishwal0)
-- **Email**: richajaishwal2006@gmail.com
